@@ -1,8 +1,9 @@
 <template>
-  <h1 class="text-3xl font-bold underline">
-    Project Init
-  </h1>
+  <div class="bg-dark-gray text-white">
+    <Header />
+  </div>
 </template>
-<script setup lang="ts">
 
+<script setup lang="ts">
+import Header from "./components/Header.vue";
 </script>
