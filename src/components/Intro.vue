@@ -15,7 +15,9 @@
       </div>
 
       <div class="lg:basis-1/2 rounded-[20px] cursor-pointer shadow-xl">
-        <img src="../assets/space.png" alt="Space" class="w-full">
+        <div class="relative overflow-hidden bg-cover bg-no-repeat rounded-t-[20px]">
+          <img src="../assets/space.png" alt="Space" class="w-full transition duration-700 ease-in-out hover:scale-105">
+        </div>
         <div class="flex flex-col gap-3 bg-gray p-4 rounded-b-[20px]">
           <span class="text-xl">Space Walking</span>
           <div class="flex items-center gap-2">
