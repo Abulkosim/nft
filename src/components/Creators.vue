@@ -27,7 +27,6 @@
             <span class="text-2xl">{{ creator.name }}</span>
             <p><span class="text-[#858584]">Total Sales:</span> 34.53 ETH</p>
           </div>
-
         </div>
       </div>
 
@@ -36,8 +35,6 @@
         <img src="../assets/rocket.svg" alt="rocket">
         <span>View Rankings</span>
       </a>
-
-
     </div>
   </div>
 </template>
