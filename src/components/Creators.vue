@@ -43,7 +43,7 @@ import { ref } from 'vue'
 const creators = ref([
   {
     id: 1,
-    src: "src/assets/person1.png",
+    src: "../assets/person1.png",
     name: "Keepitreal"
   },
   {
