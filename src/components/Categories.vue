@@ -3,7 +3,7 @@
     <div class="container px-7 mx-auto py-10 lg:py-20">
       <h3 class="text-3xl font-semibold lg:text-4xl mb-12">Browse Categories</h3>
 
-      <div class="grid grid-cols-2 gap-5 lg:grid-cols-4">
+      <div class="grid grid-cols-2 gap-5 lg:grid-cols-4" v-motion-slide-visible-once-right>
         <div v-for="category in categories"
           class="bg-gray rounded-[20px] cursor-pointer shadow-xl hover:bg-grayish transition duration-300 ease-in-out">
 

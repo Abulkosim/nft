@@ -2,9 +2,9 @@
   <div class="bg-dark-gray text-white">
     <Header />
     <Intro />
-    <Collection />
-    <Creators />
-    <Categories />
+    <Collection v-motion-slide-visible-once-bottom />
+    <Creators v-motion-slide-visible-once-bottom />
+    <Categories v-motion-slide-visible-once-bottom />
   </div>
 </template>
 

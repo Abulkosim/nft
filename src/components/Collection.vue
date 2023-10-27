@@ -8,7 +8,7 @@
 
       <div class="flex items-center justify-center md:justify-between gap-4">
 
-        <div class="flex flex-col gap-4">
+        <div class="flex flex-col gap-4" v-motion-slide-visible-once-left>
           <div class="img">
             <img src="../assets/animal1.png" alt="Animal">
           </div>
@@ -28,7 +28,7 @@
           </div>
         </div>
 
-        <div class="hidden md:flex flex-col gap-4">
+        <div class="hidden md:flex flex-col gap-4" v-motion-slide-visible-once-bottom>
           <div class="img">
             <img src="../assets/mushrooms1.png" alt="mushrooms">
           </div>
@@ -48,7 +48,7 @@
           </div>
         </div>
 
-        <div class="hidden lg:flex flex-col gap-4">
+        <div class="hidden lg:flex flex-col gap-4" v-motion-slide-visible-once-right>
           <div class="img">
             <img src="../assets/robot1.png" alt="robot">
           </div>
