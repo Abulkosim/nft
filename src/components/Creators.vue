@@ -13,7 +13,6 @@
           <span>View Rankings</span>
         </a>
       </div>
-
       <div class="grid grid-cols-1 md:grid-cols-2 gap-5 lg:grid-cols-4" v-motion-slide-visible-once-left>
         <div v-for="creator in creators"
           class="relative flex md:flex-col gap-5 items-center bg-gray p-3 md:p-5 rounded-[20px] cursor-pointer shadow-xl hover:bg-grayish transition duration-300 ease-in-out">
