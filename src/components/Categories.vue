@@ -27,35 +27,35 @@
 import { ref } from 'vue'
 const categories = ref([
   {
-    src: "../assets/category1.png",
+    src: "https://i.ibb.co/NLg5PfN/category1.png",
     name: "Art"
   },
   {
-    src: "../assets/category2.png",
+    src: "https://i.ibb.co/3WWQkxC/category2.png",
     name: "Collectibles"
   },
   {
-    src: "../assets/category3.png",
+    src: "https://i.ibb.co/Yy4zXBq/category3.png",
     name: "Music"
   },
   {
-    src: "../assets/category4.png",
+    src: "https://i.ibb.co/NYZZrP1/category4.png",
     name: "Photography"
   },
   {
-    src: "../assets/category5.png",
+    src: "https://i.ibb.co/P69cCZ0/category5.png",
     name: "Video"
   },
   {
-    src: "../assets/category6.png",
+    src: "https://i.ibb.co/6bxj1ZR/category6.png",
     name: "Utility"
   },
   {
-    src: "../assets/category7.png",
+    src: "https://i.ibb.co/wSvcJVH/category7.png",
     name: "Sport"
   },
   {
-    src: "../assets/category8.png",
+    src: "https://i.ibb.co/ZLzsRcf/category8.png",
     name: "Visual Worlds"
   }
 ])

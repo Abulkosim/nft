@@ -43,62 +43,62 @@ import { ref } from 'vue'
 const creators = ref([
   {
     id: 1,
-    src: "../assets/person1.png",
+    src: "https://i.ibb.co/Q8YWKLY/person1.png",
     name: "Keepitreal"
   },
   {
     id: 2,
-    src: "../assets/person2.png",
+    src: "https://i.ibb.co/kyXBxJQ/person2.png",
     name: "DigiLab"
   },
   {
     id: 3,
-    src: "../assets/person3.png",
+    src: "https://i.ibb.co/8chZHbw/person3.png",
     name: "GravityOne"
   },
   {
     id: 4,
-    src: "../assets/person4.png",
+    src: "https://i.ibb.co/1f6Pypm/person4.png",
     name: "Juanie"
   },
   {
     id: 5,
-    src: "../assets/person5.png",
+    src: "https://i.ibb.co/jVpJsgy/person5.png",
     name: "BlueWhale"
   },
   {
     id: 6,
-    src: "../assets/person6.png",
+    src: "https://i.ibb.co/j4dBFmq/person6.png",
     name: "MrFox"
   },
   {
     id: 7,
-    src: "../assets/person7.png",
+    src: "https://i.ibb.co/pj8TDKF/person7.png",
     name: "Shroomie"
   },
   {
     id: 8,
-    src: "../assets/person8.png",
+    src: "https://i.ibb.co/6ZV23GC/person8.png",
     name: "Robotica"
   },
   {
     id: 9,
-    src: "../assets/person9.png",
+    src: "https://i.ibb.co/nDzRNdZ/person9.png",
     name: "RustyRobot"
   },
   {
     id: 10,
-    src: "../assets/person10.png",
+    src: "https://i.ibb.co/G2kbY19/person10.png",
     name: "Animakid"
   },
   {
     id: 11,
-    src: "../assets/person11.png",
+    src: "https://i.ibb.co/C1kz0Hf/person11.png",
     name: "Dotgu"
   },
   {
     id: 12,
-    src: "../assets/person12.png",
+    src: "https://i.ibb.co/44DNzW9/person12.png",
     name: "Ghiblier"
   }
 ])
