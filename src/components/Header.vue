@@ -26,7 +26,7 @@
       </div>
     </div>
   </div>
-  <div v-if="!dropdown" class="max-w-6xl mx-auto lg:hidden">
+  <div v-if="dropdown" class="max-w-6xl mx-auto lg:hidden">
     <div class="menu container mx-auto bg-gray tracking-wide flex flex-col shadow-lg">
       <a href="#">
         <span>Marketplace</span>
