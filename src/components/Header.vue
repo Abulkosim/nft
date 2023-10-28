@@ -22,14 +22,34 @@
         </a>
       </div>
       <div class="cursor-pointer lg:hidden">
-        <PhList :size="24" weight="bold" />
+        <PhList :size="24" weight="bold" @click="dropdown = !dropdown" />
       </div>
     </div>
-
+  </div>
+  <div v-if="!dropdown" class="max-w-6xl mx-auto lg:hidden">
+    <div class="menu container mx-auto bg-gray tracking-wide flex flex-col shadow-lg">
+      <a href="#">
+        <span>Marketplace</span>
+      </a>
+      <a href="#">
+        <span>Rankings</span>
+      </a>
+      <a href="#">
+        <span>Connect a wallet</span>
+      </a>
+    </div>
   </div>
 </template>
 
 <script setup lang="ts">
 import { PhList } from "@phosphor-icons/vue";
+import { ref } from 'vue'
 
+const dropdown = ref(false)
 </script>
+
+<style>
+.menu a {
+  @apply p-4 hover:bg-grayish w-full transition duration-300 ease-in-out
+}
+</style>
