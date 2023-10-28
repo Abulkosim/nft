@@ -45,7 +45,7 @@ const categories = ref([
     name: "Video"
   },
   {
-    src: "assets/category6.png",
+    src: "src/assets/category6.png",
     name: "Utility"
   },
   {
@@ -53,7 +53,7 @@ const categories = ref([
     name: "Sport"
   },
   {
-    src: "../assets/category8.png",
+    src: "src/assets/category8.png",
     name: "Visual Worlds"
   }
 ])
