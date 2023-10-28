@@ -1,5 +1,5 @@
 <template>
-  <div class="h-14 container px-7 mx-auto flex justify-between items-center lg:h-24 select-none" v-motion-slide-top>
+  <div class="h-14 container px-7 mx-auto flex justify-between items-center lg:h-24 select-none" v-motion-fade>
     <div class="flex items-center gap-2 cursor-pointer">
       <img src="../assets/icon.svg" alt="NFT" class="w-6 h-6 lg:w-8 lg:h-8">
       <h1 class="text-xl font-semibold lg:text-2xl tracking-widest">NFT Marketplace</h1>
