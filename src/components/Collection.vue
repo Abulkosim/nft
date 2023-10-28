@@ -77,10 +77,6 @@
 </script>
 
 <style scoped>
-img {
-  cursor: pointer;
-}
-
 .img {
   @apply relative overflow-hidden bg-cover bg-no-repeat rounded-[20px] shadow-xl
 }
