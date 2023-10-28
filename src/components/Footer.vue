@@ -1,6 +1,6 @@
 <template>
   <div class="bg-gray">
-    <div class="max-w-6xl mx-auto">
+    <div class="max-w-6xl mx-auto" v-motion-slide-bottom>
       <div class="px-7 py-10 container mx-auto select-none">
 
         <div class="flex flex-col lg:flex-row gap-4 lg:gap-8">

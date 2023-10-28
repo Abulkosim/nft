@@ -2,7 +2,7 @@
   <div class="max-w-6xl mx-auto">
     <div
       class="container px-7 mx-auto flex items-center flex-col py-10 lg:flex-row lg:py-20 lg:justify-between gap-8 lg:gap-10">
-      <div class="w-full gap-3 lg:basis-1/2 flex flex-col lg:gap-6">
+      <div class="w-full gap-3 lg:basis-1/2 flex flex-col lg:gap-6" v-motion-slide-left>
         <h2
           class="text-[28px] leading-[39.2px] tracking-wide font-semibold sm:text-4xl md:text-5xl lg:text-[67px] lg:leading-[73.7px] sm:tracking-wider">
           Discover Digital Art &
@@ -14,7 +14,7 @@
 
       </div>
 
-      <div class="lg:basis-1/2 rounded-[20px] cursor-pointer shadow-xl">
+      <div class="lg:basis-1/2 rounded-[20px] cursor-pointer shadow-xl" v-motion-slide-right>
         <div class="relative overflow-hidden bg-cover bg-no-repeat rounded-t-[20px]">
           <img src="../assets/space.png" alt="Space" class="w-full transition duration-700 ease-in-out hover:scale-105">
         </div>
@@ -32,6 +32,5 @@
 </template>
 
 <script setup lang="ts">
-import { PhList } from "@phosphor-icons/vue";
 import Indicator from "./Indicator.vue";
 </script>
