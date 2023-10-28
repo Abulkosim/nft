@@ -43,62 +43,62 @@ import { ref } from 'vue'
 const creators = ref([
   {
     id: 1,
-    src: "src/assets/person1.png",
+    src: "../assets/person1.png",
     name: "Keepitreal"
   },
   {
     id: 2,
-    src: "src/assets/person2.png",
+    src: "../assets/person2.png",
     name: "DigiLab"
   },
   {
     id: 3,
-    src: "src/assets/person3.png",
+    src: "../assets/person3.png",
     name: "GravityOne"
   },
   {
     id: 4,
-    src: "src/assets/person4.png",
+    src: "../assets/person4.png",
     name: "Juanie"
   },
   {
     id: 5,
-    src: "src/assets/person5.png",
+    src: "../assets/person5.png",
     name: "BlueWhale"
   },
   {
     id: 6,
-    src: "src/assets/person6.png",
+    src: "../assets/person6.png",
     name: "MrFox"
   },
   {
     id: 7,
-    src: "src/assets/person7.png",
+    src: "../assets/person7.png",
     name: "Shroomie"
   },
   {
     id: 8,
-    src: "src/assets/person8.png",
+    src: "../assets/person8.png",
     name: "Robotica"
   },
   {
     id: 9,
-    src: "src/assets/person9.png",
+    src: "../assets/person9.png",
     name: "RustyRobot"
   },
   {
     id: 10,
-    src: "src/assets/person10.png",
+    src: "../assets/person10.png",
     name: "Animakid"
   },
   {
     id: 11,
-    src: "src/assets/person11.png",
+    src: "../assets/person11.png",
     name: "Dotgu"
   },
   {
     id: 12,
-    src: "src/assets/person12.png",
+    src: "../assets/person12.png",
     name: "Ghiblier"
   }
 ])
