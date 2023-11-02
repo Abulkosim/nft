@@ -39,11 +39,11 @@
               <h1 class="text-2xl tracking-widest">Join Our Weekly Digest</h1>
             </div>
             <p>Get exclusive promotions & updates straight to your inbox.</p>
-            <a href="#"
+            <router-link to="/nft/signup"
               class="flex w-full md:w-56 items-center justify-center gap-2 py-4 px-5 bg-purple rounded-[20px] hover:bg-darker-purple">
               <img src="../assets/email.svg" alt="email">
               <span>Subscribe</span>
-            </a>
+            </router-link>
           </div>
         </div>
 

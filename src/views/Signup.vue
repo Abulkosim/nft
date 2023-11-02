@@ -1,9 +1,8 @@
 <template>
   <div>
-    <Intro />
-
+    <Signup />
   </div>
 </template>
 <script setup>
-import Intro from "../components/Intro.vue";
+import Signup from "../components/Signup.vue";
 </script>
