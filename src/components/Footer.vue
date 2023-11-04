@@ -29,9 +29,9 @@
             <a href="#" class="hover:opacity-90">
               <span>Rankings</span>
             </a>
-            <a href="#" class="hover:opacity-90">
+            <router-link to="/nft/wallet" class="hover:opacity-90">
               <span>Connect a wallet</span>
-            </a>
+            </router-link>
           </div>
 
           <div class="basis-2/5 flex flex-col gap-5 p-3">

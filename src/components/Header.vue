@@ -13,9 +13,9 @@
         <a href="#" class="p-4 hover:opacity-90">
           <span>Rankings</span>
         </a>
-        <a href="#" class="p-4 hover:opacity-90">
+        <router-link to="/nft/wallet" class="p-4 hover:opacity-90">
           <span>Connect a wallet</span>
-        </a>
+        </router-link>
         <router-link to="/nft/signup"
           class="flex items-center gap-2 py-4 px-5 bg-purple rounded-[20px] hover:bg-darker-purple">
           <img src="../assets/user.svg" alt="user">
