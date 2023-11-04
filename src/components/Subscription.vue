@@ -13,11 +13,11 @@
           <h3 class="text-2xl sm:text-3xl font-semibold lg:text-4xl">Join Our Weekly Digest</h3>
           <p class="text-lg md:text-xl">Get Exclusive Promotions & Updates Straight to Your Inbox.</p>
 
-          <a href="#"
+          <router-link to="/nft/signup"
             class="flex w-full md:w-56 items-center justify-center gap-2 py-4 px-5 mt-3 lg:mt-5 border border-purple rounded-[20px] hover:bg-darker-purple">
             <img src="../assets/email.svg" alt="email">
             <span>Subscribe</span>
-          </a>
+          </router-link>
         </div>
 
       </div>

@@ -7,7 +7,9 @@
           <div class="basis-2/5 flex flex-col gap-5 p-3">
             <div class="flex items-center gap-2 cursor-pointer mb-1">
               <img src="../assets/icon.svg" alt="NFT" class="w-6 h-6 lg:w-8 lg:h-8">
-              <h1 class="text-2xl tracking-widest">NFT Marketplace</h1>
+              <router-link to="/nft">
+                <h1 class="text-2xl tracking-widest">NFT Marketplace</h1>
+              </router-link>
             </div>
             <p>NFT marketplace UI created with Anima for Figma.</p>
             <p>Join our community</p>
@@ -23,12 +25,12 @@
             <div class="cursor-pointer mb-1">
               <h1 class="text-2xl tracking-widest">Explore</h1>
             </div>
-            <a href="#" class="hover:opacity-90">
+            <router-link to="/nft/marketplace" class="hover:opacity-90">
               <span>Marketplace</span>
-            </a>
-            <a href="#" class="hover:opacity-90">
+            </router-link>
+            <router-link to="/nft/rankings" class="hover:opacity-90">
               <span>Rankings</span>
-            </a>
+            </router-link>
             <router-link to="/nft/wallet" class="hover:opacity-90">
               <span>Connect a wallet</span>
             </router-link>

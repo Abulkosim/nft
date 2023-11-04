@@ -7,12 +7,12 @@
 
     <div class="flex items-center">
       <div class="tracking-wide hidden lg:flex lg:items-center lg:gap-1.5">
-        <a href="#" class="p-4 hover:opacity-90">
+        <router-link to="/nft/marketplace" class="p-4 hover:opacity-90">
           <span>Marketplace</span>
-        </a>
-        <a href="#" class="p-4 hover:opacity-90">
+        </router-link>
+        <router-link to="/nft/rankings" class="p-4 hover:opacity-90">
           <span>Rankings</span>
-        </a>
+        </router-link>
         <router-link to="/nft/wallet" class="p-4 hover:opacity-90">
           <span>Connect a wallet</span>
         </router-link>
@@ -29,15 +29,15 @@
   </div>
   <div v-if="dropdown" class="max-w-6xl mx-auto lg:hidden">
     <div class="menu container mx-auto bg-gray tracking-wide flex flex-col shadow-lg">
-      <a href="#">
+      <router-link to="/nft/marketplace">
         <span>Marketplace</span>
-      </a>
-      <a href="#">
+      </router-link>
+      <router-link to="/nft/rankings">
         <span>Rankings</span>
-      </a>
-      <a href="#">
+      </router-link>
+      <router-link to="/nft/wallet">
         <span>Connect a wallet</span>
-      </a>
+      </router-link>
     </div>
   </div>
 </template>
