@@ -7,11 +7,11 @@
           <h3 class="text-3xl font-semibold lg:text-4xl mb-3">Discover More NFTs</h3>
           <p class="lg:text-xl">Explore New Trending NFTs</p>
         </div>
-        <a href="#"
+        <router-link to="/nft/marketplace"
           class="hidden md:flex w-56 items-center justify-center gap-2 py-4 px-5 border border-purple rounded-[20px] hover:bg-darker-purple">
           <PhEye size="20" />
           <span>See All</span>
-        </a>
+        </router-link>
       </div>
 
       <div class="grid grid-cols-1 min-[540px]:grid-cols-2 lg:grid-cols-4 gap-5" v-motion-slide-visible-once-left>

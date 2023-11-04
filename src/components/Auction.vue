@@ -6,7 +6,7 @@
         v-motion-slide-visible-once-right>
         <div class="flex flex-col gap-5">
           <h3 class="text-3xl font-semibold lg:text-5xl">Magic Mushrooms</h3>
-          <p class="text-lg md:text-xl">Auction ends in 10:20:14</p>
+          <p class="text-lg md:text-xl">Auction ends on November 10th</p>
 
           <div class="flex items-center gap-4 bg-dark-gray py-2 px-4 rounded-[20px] w-fit shadow-lg">
             <img src="../assets/shroomie.png" alt="shroomie">
