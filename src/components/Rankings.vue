@@ -1,32 +1,28 @@
 <template>
-  <div class="max-w-6xl mx-auto">
-    <div class="container mx-auto px-7 flex flex-col lg:flex-row items-center gap-8 lg:gap-16 py-16">
-      <div class="lg:basis-1/2 shadow-xl rounded-[20px] sm:mx-8 lg:mx-0 lg:w-full" v-motion-slide-left>
-        <img src="../assets/wallet.png" alt="Wallet" class="rounded-[20px]">
+  <div class="max-w-6xl mx-auto" v-motion-fade>
+    <div class="container mx-auto px-7 py-16">
+      <div class="flex flex-col gap-4 pb-12">
+        <h2 class="text-3xl tracking-wide font-semibold md:text-4xl lg:text-5xl">
+          Top Creators</h2>
+        <p class="md:text-xl text-whitish mb-4">Check out top ranking NFT artists on the NFT Marketplace.</p>
+
       </div>
 
-      <div class="gap-4 lg:basis-1/2 flex flex-col items-center text-center lg:items-start lg:text-start lg:gap-6"
-        v-motion-slide-right>
-        <h2 class="text-[28px] leading-[39.2px] tracking-wide font-semibold md:text-4xl lg:text-5xl sm:tracking-wider">
-          Connect Wallet</h2>
-        <p class="md:text-xl text-whitish max-w-lg">Choose a wallet you want to connect. <br> There are several wallet
-          providers.</p>
-        <div class="flex flex-col gap-4">
-          <div
-            class="rounded-[20px] bg-gray flex gap-5 items-center px-10 py-4 cursor-pointer shadow-lg hover:bg-grayish transition duration-500 ease-in-out">
-            <img src="../assets/wallet1.svg" alt="Wallet">
-            <span class="text-xl">Metamask</span>
+      <div class="flex flex-col gap-3 lg:gap-5" v-motion-slide-bottom>
+        <div v-for="ranking in rankings"
+          class="bg-gray px-3 md:px-5 pr-4 lg:pr-12 py-2 rounded-[20px] flex items-center justify-between shadow-md hover:bg-grayish cursor-pointer">
+          <div class="basis-1/2 flex items-center gap-3 lg:gap-5">
+            <div class="rounded-full flex items-center justify-center lg:bg-dark-gray w-7 h-7">
+              <span>{{ ranking.id }}</span>
+            </div>
+            <div>
+              <img :src="ranking.src" alt="Person" class="w-6 h-6 lg:w-14 lg:h-14">
+            </div>
+            <span class="md:text-xl">{{ ranking.name }}</span>
           </div>
-          <div
-            class="rounded-[20px] bg-gray flex gap-5 items-center px-10 py-4 cursor-pointer shadow-lg hover:bg-grayish transition duration-500 ease-in-out">
-            <img src="../assets/wallet2.svg" alt="Wallet">
-            <span class="text-xl">Wallet Connect</span>
-          </div>
-          <div
-            class="rounded-[20px] bg-gray flex gap-5 items-center px-10 py-4 cursor-pointer shadow-lg hover:bg-grayish transition duration-500 ease-in-out">
-            <img src="../assets/wallet3.svg" alt="Wallet">
-            <span class="text-xl">Coinbase</span>
-          </div>
+          <span class="text-[#00AC4F] hidden md:inline">1.41%</span>
+          <span class="text-whitish hidden lg:inline">602</span>
+          <span class="text-whitish">12.4 ETH</span>
         </div>
       </div>
     </div>
@@ -34,4 +30,108 @@
 </template>
 
 <script setup lang="ts">
+import { ref } from 'vue'
+
+const rankings = ref([
+  {
+    id: 1,
+    src: "https://i.ibb.co/Q8YWKLY/person1.png",
+    name: "Keepitreal"
+  },
+  {
+    id: 2,
+    src: "https://i.ibb.co/kyXBxJQ/person2.png",
+    name: "DigiLab"
+  },
+  {
+    id: 3,
+    src: "https://i.ibb.co/8chZHbw/person3.png",
+    name: "GravityOne"
+  },
+  {
+    id: 4,
+    src: "https://i.ibb.co/1f6Pypm/person4.png",
+    name: "Juanie"
+  },
+  {
+    id: 5,
+    src: "https://i.ibb.co/jVpJsgy/person5.png",
+    name: "BlueWhale"
+  },
+  {
+    id: 6,
+    src: "https://i.ibb.co/j4dBFmq/person6.png",
+    name: "MrFox"
+  },
+  {
+    id: 7,
+    src: "https://i.ibb.co/pj8TDKF/person7.png",
+    name: "Shroomie"
+  },
+  {
+    id: 8,
+    src: "https://i.ibb.co/6ZV23GC/person8.png",
+    name: "Robotica"
+  },
+  {
+    id: 9,
+    src: "https://i.ibb.co/nDzRNdZ/person9.png",
+    name: "RustyRobot"
+  },
+  {
+    id: 10,
+    src: "https://i.ibb.co/G2kbY19/person10.png",
+    name: "Animakid"
+  },
+  {
+    id: 11,
+    src: "https://i.ibb.co/C1kz0Hf/person11.png",
+    name: "Dotgu"
+  },
+  {
+    id: 12,
+    src: "https://i.ibb.co/44DNzW9/person12.png",
+    name: "Ghiblier"
+  },
+  {
+    id: 13,
+    src: "https://i.ibb.co/Q8YWKLY/person1.png",
+    name: "Keepitreal"
+  },
+  {
+    id: 14,
+    src: "https://i.ibb.co/kyXBxJQ/person2.png",
+    name: "DigiLab"
+  },
+  {
+    id: 15,
+    src: "https://i.ibb.co/8chZHbw/person3.png",
+    name: "GravityOne"
+  },
+  {
+    id: 16,
+    src: "https://i.ibb.co/1f6Pypm/person4.png",
+    name: "Juanie"
+  },
+  {
+    id: 17,
+    src: "https://i.ibb.co/jVpJsgy/person5.png",
+    name: "BlueWhale"
+  },
+  {
+    id: 18,
+    src: "https://i.ibb.co/j4dBFmq/person6.png",
+    name: "MrFox"
+  },
+  {
+    id: 19,
+    src: "https://i.ibb.co/pj8TDKF/person7.png",
+    name: "Shroomie"
+  },
+  {
+    id: 20,
+    src: "https://i.ibb.co/6ZV23GC/person8.png",
+    name: "Robotica"
+  }
+])
 </script>

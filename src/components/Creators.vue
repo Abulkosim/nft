@@ -7,11 +7,11 @@
           <h3 class="text-3xl font-semibold lg:text-4xl mb-3">Top Creators</h3>
           <p class="lg:text-xl">Checkout Top Rated Creators on the NFT Marketplace</p>
         </div>
-        <a href="#"
+        <router-link to="/nft/rankings"
           class="hidden md:flex w-56 items-center justify-center gap-2 py-4 px-5 border border-purple rounded-[20px] hover:bg-darker-purple">
           <img src="../assets/rocket.svg" alt="rocket">
           <span>View Rankings</span>
-        </a>
+        </router-link>
       </div>
       <div class="grid grid-cols-1 md:grid-cols-2 gap-5 lg:grid-cols-4" v-motion-slide-visible-once-left>
         <div v-for="creator in creators"
@@ -29,11 +29,11 @@
         </div>
       </div>
 
-      <a href="#"
+      <router-link to="/nft/rankings"
         class="flex w-full md:w-56 md:hidden items-center justify-center gap-2 py-4 my-10 px-5 border border-purple rounded-[20px] hover:bg-darker-purple">
         <img src="../assets/rocket.svg" alt="rocket">
         <span>View Rankings</span>
-      </a>
+      </router-link>
     </div>
   </div>
 </template>
