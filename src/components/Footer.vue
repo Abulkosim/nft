@@ -8,7 +8,7 @@
             <div class="flex items-center gap-2 cursor-pointer mb-1">
               <img src="../assets/icon.svg" alt="NFT" class="w-6 h-6 lg:w-8 lg:h-8">
               <router-link to="/nft">
-                <h1 class="text-2xl tracking-widest">NFT Marketplace</h1>
+                <h1 class="text-2xl tracking-widest text-white">NFT Marketplace</h1>
               </router-link>
             </div>
             <p>NFT marketplace UI created with Anima for Figma.</p>
